@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code generator - hxnrycz.xyz</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="shortcut icon" href="/assets/icon.png">
+</head>
+<body>
+    <form action="/t" method="post">
+        <h1>Generate QR Code</h1>
+        <input type="text" name="t"><br><br><br>
+        <select name="option">
+            <option value="datauri">Direct Image Link</option>
+            <option value="image">Direct Image</option>
+            <option value="read">Get content of QR Code</option>
+        </select><br><br><br>
+        <button type="submit">Send</button><br><br><br>
+    </form>
+</body>
+</html>
